@@ -1,0 +1,52 @@
+class random_input ; // Sys temVer i log Clas s f o r cons t rained randomi zat ion
+        rand int d ; //random input v a r i a b l e
+        constraint c1 {d >= 0 ; d <= 1 ;} // d can only be between 0 and 1 i n c l u s i v e
+        rand int reset; // Random r e s e t v a r i a b l e
+        constraint c2 {
+                reset dist {0:=8 ,1:= 2} ; // r e s e t i s `0 ' 80% of the t ime ; `1 ' 20% of the t ime
+        }
+endclass
+
+// Sys temVer i log t e s t module f o r b e h a v i o r a l D Fl ip??Flop
+module dff_svtm();
+reg clk;
+reg d;
+reg reset;
+wire q;
+wire q_bar ;
+dff_B DUT( clk , reset , d , q , q_bar ) ; // Po s i t i v e edge t r i g g e r e d f l i p ??f l o p
+// Sp e c i f y coverage
+covergroup myCoverGroup @ (clk); // Check coverage when ever c l k changes
+Q: coverpoint q ; // Al l p o s s i b l e v a lue s ( i . e . 0 , 1)
+Q BAR: coverpoint q_bar{ // Trans i t ion 0 to 1 and 1 to 0
+bins t1 = (0=>1);
+bins t2 = (1=>0);
+}
+RESET: coverpoint reset{ // Value 0 and value 1
+bins zero = {0};
+bins one = {1};
+}
+CROSS COVERAGE: cross Q, RESET;
+endgroup
+
+initial
+begin
+random_input rb ; // Declare random input v a r i a b l e
+myCoverGroup cg ; // Declare myCoverGroup v a r i a b l e
+rb = new() ; // I n s t a n t i a t e random input v a r i a b l e
+cg = new() ; // I n s t a n t i a t e myCoverGroup v a r i a b l e
+// Do the s tandard t e s t module s e tup
+clk <= 1'b1 ;
+d <= 1'b0 ;
+reset <= 1'b1 ;
+#15 reset <= 1'b0 ;
+forever
+begin
+// Create new random input s and apply them
+assert ( rb.randomize() )
+#20 d <= rb.d ;
+reset <= rb.reset ;
+end
+end
+always #10 clk <= ~clk ; // Generate c l o c k s i g n a l
+endmodule

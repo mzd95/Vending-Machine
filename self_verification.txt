@@ -1,0 +1,72 @@
+COVERGROUP COVERAGE:
+----------------------------------------------------------------------------------------------------
+Covergroup                                             Metric      Goal/ Status                    
+                                                                At Least                           
+----------------------------------------------------------------------------------------------------
+ TYPE /VendMachine_tb/myCoverGroup                      91.2%        100 Uncovered                 
+    Coverpoint myCoverGroup::PENNY                     100.0%        100 Covered                   
+    Coverpoint myCoverGroup::NICKLE                    100.0%        100 Covered                   
+    Coverpoint myCoverGroup::DIME                      100.0%        100 Covered                   
+    Coverpoint myCoverGroup::QUARTER                   100.0%        100 Covered                   
+    Coverpoint myCoverGroup::CREDIT                     42.8%        100 Uncovered                 
+    Coverpoint myCoverGroup::ERROR                     100.0%        100 Covered                   
+    Coverpoint myCoverGroup::PRO                       100.0%        100 Covered                   
+    Cross myCoverGroup::CROSS_COVERAGE                  87.5%        100 Uncovered                 
+ Covergroup instance \/VendMachine_tb/#ublk#0#52/cg  
+                                                        91.2%        100 Uncovered                 
+    Coverpoint PENNY                                   100.0%        100 Covered                   
+        covered/total bins:                                 2          2                           
+        missing/total bins:                                 0          2                           
+        bin auto['b0]                                   13658          1 Covered                   
+        bin auto['b1]                                       2          1 Covered                   
+    Coverpoint NICKLE                                  100.0%        100 Covered                   
+        covered/total bins:                                 2          2                           
+        missing/total bins:                                 0          2                           
+        bin auto['b0]                                   13658          1 Covered                   
+        bin auto['b1]                                       2          1 Covered                   
+    Coverpoint DIME                                    100.0%        100 Covered                   
+        covered/total bins:                                 2          2                           
+        missing/total bins:                                 0          2                           
+        bin auto['b0]                                   13656          1 Covered                   
+        bin auto['b1]                                       4          1 Covered                   
+    Coverpoint QUARTER                                 100.0%        100 Covered                   
+        covered/total bins:                                 2          2                           
+        missing/total bins:                                 0          2                           
+        bin auto['b0]                                   13658          1 Covered                   
+        bin auto['b1]                                       2          1 Covered                   
+    Coverpoint CREDIT                                   42.8%        100 Uncovered                 
+        covered/total bins:                                 3          7                           
+        missing/total bins:                                 4          7                           
+        bin zero                                          100          1 Covered                   
+        bin one                                             0          1 ZERO                      
+        bin two                                           104          1 Covered                   
+        bin three                                       13456          1 Covered                   
+        bin four                                            0          1 ZERO                      
+        bin five                                            0          1 ZERO                      
+        bin six                                             0          1 ZERO                      
+    Coverpoint ERROR                                   100.0%        100 Covered                   
+        covered/total bins:                                 2          2                           
+        missing/total bins:                                 0          2                           
+        bin auto['b0]                                   13647          1 Covered                   
+        bin auto['b1]                                      13          1 Covered                   
+    Coverpoint PRO                                     100.0%        100 Covered                   
+        covered/total bins:                                 4          4                           
+        missing/total bins:                                 0          4                           
+        bin auto['b00]                                    122          1 Covered                   
+        bin auto['b01]                                     14          1 Covered                   
+        bin auto['b10]                                  13448          1 Covered                   
+        bin auto['b11]                                     42          1 Covered                   
+    Cross CROSS_COVERAGE                                87.5%        100 Uncovered                 
+        covered/total bins:                                 7          8                           
+        missing/total bins:                                 1          8                           
+        bin <auto['b00],auto['b0]>                        116          1 Covered                   
+        bin <auto['b01],auto['b0]>                         12          1 Covered                   
+        bin <auto['b10],auto['b0]>                      13448          1 Covered                   
+        bin <auto['b11],auto['b0]>                         38          1 Covered                   
+        bin <auto['b00],auto['b1]>                          6          1 Covered                   
+        bin <auto['b01],auto['b1]>                          2          1 Covered                   
+        bin <auto['b11],auto['b1]>                          4          1 Covered                   
+        bin <auto['b10],auto['b1]>                          0          1 ZERO                      
+
+TOTAL COVERGROUP COVERAGE: 91.2%  COVERGROUP TYPES: 1
+

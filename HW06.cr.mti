@@ -1,0 +1,486 @@
+E:/UCSB/ECE156A/HW05/VendMachine_tb.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/VendMachine_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module VendMachine_tb
+
+Top level modules:
+	VendMachine_tb
+
+} {} {}} E:/UCSB/ECE156A/HW05/coin_sensor_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/coin_sensor_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module coin_sensor_B
+
+Top level modules:
+	coin_sensor_B
+
+} {} {}} E:/UCSB/ECE156A/HW03/dff_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW03/dff_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module dff_B
+
+Top level modules:
+	dff_B
+
+} {} {}} E:/UCSB/ECE156A/HW05/VendMachine_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/VendMachine_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module VendMachine_B
+
+Top level modules:
+	VendMachine_B
+
+} {} {}} E:/UCSB/ECE156A/HW05/purchaseManager_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/purchaseManager_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module purchaseManager_B
+
+Top level modules:
+	purchaseManager_B
+
+} {} {}} E:/UCSB/ECE156A/HW06/class.v {2 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW06/class.v
+-- Compiling module NR5P
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+** Warning: (vlog-6) -- Waiting for lock by "Administrator@PC-201606270912, pid = 2144
+". Lockfile is "E:/UCSB/ECE156A/HW06/work/_lock".
+
+-- Compiling module ND6P
+-- Compiling module NR6P
+-- Compiling module ND8P
+-- Compiling module NR8P
+-- Compiling module NR16
+-- Compiling module NR16P
+-- Compiling module ENP
+-- Compiling module EOP
+-- Compiling module EO1P
+-- Compiling module EON1P
+-- Compiling module AO1P
+-- Compiling module AO3P
+-- Compiling module MUX21HP
+-- Compiling module MUX21L
+-- Compiling module MUX21LP
+-- Compiling UDP p_mux21l
+-- Compiling module MUX31L
+-- Compiling module MUX31LP
+-- Compiling UDP p_mux31l
+-- Compiling module MUX21LA
+-- Compiling UDP p_mux21la
+** Warning: (vlog-6) -- Waiting for lock by "Administrator@PC-201606270912, pid = 2144
+". Lockfile is "E:/UCSB/ECE156A/HW06/work/_lock".
+
+-- Compiling module AO5
+-- Compiling module AO5P
+-- Compiling UDP p_ao5
+-- Compiling module EN3
+-- Compiling module EN3P
+-- Compiling module EO3
+-- Compiling module EO3P
+-- Compiling module MUX21LAP
+-- Compiling module NR4P
+-- Compiling module FD1
+-- Compiling UDP p_dreg
+-- Compiling module FD1S
+-- Compiling UDP p_dregscan
+-- Compiling module FD2
+-- Compiling UDP p_dregclear
+-- Compiling module FD2S
+-- Compiling UDP p_dregscanclear
+-- Compiling module FD4
+-- Compiling UDP p_dregset
+-- Compiling module FD4S
+-- Compiling UDP p_dregscanset
+-- Compiling module B2I
+-- Compiling module B2IP
+-- Compiling module B3I
+-- Compiling module B3IP
+-- Compiling module BTS5
+-- Compiling module LD1
+-- Compiling UDP p_latch
+-- Compiling module IBUF1
+-- Compiling module IBUF2
+-- Compiling module IBUF3
+-- Compiling module IBUF4
+-- Compiling module IBUF5
+** Warning: (vlog-6) -- Waiting for lock by "Administrator@PC-201606270912, pid = 2144
+". Lockfile is "E:/UCSB/ECE156A/HW06/work/_lock".
+
+-- Compiling module OBUF1
+-- Compiling module OBUF2
+-- Compiling module BIDI
+
+Top level modules:
+	AN2
+	AN2I
+	OR2
+	OR2I
+	IV
+	IVI
+	IVP
+	IVA
+	IVAP
+	IVDA
+	IVDAP
+	B5I
+	B5IP
+	B4I
+	B4IP
+	ND2
+	ND2I
+	ND2P
+	NR2
+	NR2I
+	NR2P
+	EN
+	ENI
+	EO
+	EOI
+	ND3
+	ND3P
+	NR3
+	NR3P
+	AN3
+	OR3
+	ND4
+	ND4P
+	NR4
+	ND5
+	AO6
+	AO6P
+	AO7
+	AO7P
+	AO2
+	AO2P
+	AO4
+	AO4P
+	AO1
+	AO3
+	AN2P
+	AN3P
+	AN4
+	AN4P
+	OR2P
+	OR3P
+	OR4
+	OR4P
+	MUX21H
+	NR5
+	ND6
+	NR6
+	ND8
+	NR8
+	EON1
+	EO1
+	ND5P
+	NR5P
+	ND6P
+	NR6P
+	ND8P
+	NR8P
+	NR16
+	NR16P
+	ENP
+	EOP
+	EO1P
+	EON1P
+	AO1P
+	AO3P
+	MUX21HP
+	MUX21L
+	MUX21LP
+	MUX31L
+	MUX31LP
+	MUX21LA
+	AO5
+	AO5P
+	EN3
+	EN3P
+	EO3
+	EO3P
+	MUX21LAP
+	NR4P
+	FD1
+	FD1S
+	FD2
+	FD2S
+	FD4
+	FD4S
+	B2I
+	B2IP
+	B3I
+	B3IP
+	BTS5
+	LD1
+	IBUF1
+	IBUF2
+	IBUF3
+	IBUF4
+	IBUF5
+	OBUF1
+	OBUF2
+	BIDI
+-- Compiling module AN2
+-- Compiling module AN2I
+-- Compiling module OR2
+-- Compiling module OR2I
+-- Compiling module IV
+-- Compiling module IVI
+-- Compiling module IVP
+-- Compiling module IVA
+-- Compiling module IVAP
+-- Compiling module IVDA
+-- Compiling module IVDAP
+-- Compiling module B5I
+-- Compiling module B5IP
+-- Compiling module B4I
+-- Compiling module B4IP
+-- Compiling module ND2
+-- Compiling module ND2I
+-- Compiling module ND2P
+-- Compiling module NR2
+-- Compiling module NR2I
+-- Compiling module NR2P
+-- Compiling module EN
+-- Compiling module ENI
+-- Compiling module EO
+-- Compiling module EOI
+-- Compiling module ND3
+-- Compiling module ND3P
+-- Compiling module NR3
+-- Compiling module NR3P
+-- Compiling module AN3
+-- Compiling module OR3
+-- Compiling module ND4
+-- Compiling module ND4P
+-- Compiling module NR4
+-- Compiling module ND5
+-- Compiling module AO6
+-- Compiling module AO6P
+-- Compiling UDP p_ao6
+-- Compiling module AO7
+-- Compiling module AO7P
+-- Compiling UDP p_ao7
+-- Compiling module AO2
+-- Compiling module AO2P
+-- Compiling UDP p_ao2
+-- Compiling module AO4
+-- Compiling module AO4P
+-- Compiling UDP p_ao4
+-- Compiling module AO1
+-- Compiling UDP p_ao1
+-- Compiling module AO3
+-- Compiling UDP p_ao3
+-- Compiling module AN2P
+-- Compiling module AN3P
+-- Compiling module AN4
+-- Compiling module AN4P
+-- Compiling module OR2P
+-- Compiling module OR3P
+-- Compiling module OR4
+-- Compiling module OR4P
+-- Compiling module MUX21H
+-- Compiling UDP p_mux21h
+-- Compiling module NR5
+-- Compiling module ND6
+-- Compiling module NR6
+-- Compiling module ND8
+-- Compiling module NR8
+-- Compiling module EON1
+-- Compiling UDP p_eon1
+-- Compiling module EO1
+-- Compiling UDP p_eo1
+-- Compiling module ND5P
+-- Compiling module NR5P
+-- Compiling module ND6P
+-- Compiling module NR6P
+-- Compiling module ND8P
+-- Compiling module NR8P
+-- Compiling module NR16
+-- Compiling module NR16P
+-- Compiling module ENP
+-- Compiling module EOP
+-- Compiling module EO1P
+-- Compiling module EON1P
+-- Compiling module AO1P
+-- Compiling module AO3P
+-- Compiling module MUX21HP
+-- Compiling module MUX21L
+-- Compiling module MUX21LP
+-- Compiling UDP p_mux21l
+-- Compiling module MUX31L
+-- Compiling module MUX31LP
+-- Compiling UDP p_mux31l
+-- Compiling module MUX21LA
+-- Compiling UDP p_mux21la
+-- Compiling module AO5
+-- Compiling module AO5P
+-- Compiling UDP p_ao5
+-- Compiling module EN3
+-- Compiling module EN3P
+-- Compiling module EO3
+-- Compiling module EO3P
+-- Compiling module MUX21LAP
+-- Compiling module NR4P
+-- Compiling module FD1
+-- Compiling UDP p_dreg
+-- Compiling module FD1S
+-- Compiling UDP p_dregscan
+-- Compiling module FD2
+-- Compiling UDP p_dregclear
+-- Compiling module FD2S
+-- Compiling UDP p_dregscanclear
+-- Compiling module FD4
+-- Compiling UDP p_dregset
+-- Compiling module FD4S
+-- Compiling UDP p_dregscanset
+-- Compiling module B2I
+-- Compiling module B2IP
+-- Compiling module B3I
+-- Compiling module B3IP
+-- Compiling module BTS5
+-- Compiling module LD1
+-- Compiling UDP p_latch
+-- Compiling module IBUF1
+-- Compiling module IBUF2
+-- Compiling module IBUF3
+-- Compiling module IBUF4
+-- Compiling module IBUF5
+-- Compiling module OBUF1
+-- Compiling module OBUF2
+-- Compiling module BIDI
+
+Top level modules:
+	AN2
+	AN2I
+	OR2
+	OR2I
+	IV
+	IVI
+	IVP
+	IVA
+	IVAP
+	IVDA
+	IVDAP
+	B5I
+	B5IP
+	B4I
+	B4IP
+	ND2
+	ND2I
+	ND2P
+	NR2
+	NR2I
+	NR2P
+	EN
+	ENI
+	EO
+	EOI
+	ND3
+	ND3P
+	NR3
+	NR3P
+	AN3
+	OR3
+	ND4
+	ND4P
+	NR4
+	ND5
+	AO6
+	AO6P
+	AO7
+	AO7P
+	AO2
+	AO2P
+	AO4
+	AO4P
+	AO1
+	AO3
+	AN2P
+	AN3P
+	AN4
+	AN4P
+	OR2P
+	OR3P
+	OR4
+	OR4P
+	MUX21H
+	NR5
+	ND6
+	NR6
+	ND8
+	NR8
+	EON1
+	EO1
+	ND5P
+	NR5P
+	ND6P
+	NR6P
+	ND8P
+	NR8P
+	NR16
+	NR16P
+	ENP
+	EOP
+	EO1P
+	EON1P
+	AO1P
+	AO3P
+	MUX21HP
+	MUX21L
+	MUX21LP
+	MUX31L
+	MUX31LP
+	MUX21LA
+	AO5
+	AO5P
+	EN3
+	EN3P
+	EO3
+	EO3P
+	MUX21LAP
+	NR4P
+	FD1
+	FD1S
+	FD2
+	FD2S
+	FD4
+	FD4S
+	B2I
+	B2IP
+	B3I
+	B3IP
+	BTS5
+	LD1
+	IBUF1
+	IBUF2
+	IBUF3
+	IBUF4
+	IBUF5
+	OBUF1
+	OBUF2
+	BIDI
+
+} {} {}} E:/UCSB/ECE156A/HW06/dffs_tb.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW06/dffs_tb.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling package dffs_tb_v_unit
+-- Compiling module dff_svtm
+
+Top level modules:
+	dff_svtm
+
+} {} {}} E:/UCSB/ECE156A/HW05/piggyBank_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/piggyBank_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module piggyBank_B
+
+Top level modules:
+	piggyBank_B
+
+} {} {}} E:/UCSB/ECE156A/HW05/sevenSegDispMngr_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/sevenSegDispMngr_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module sevenSegDispMngr_B
+
+Top level modules:
+	sevenSegDispMngr_B
+
+} {} {}} E:/UCSB/ECE156A/HW05/seg_decoder_B.v {1 {vlog -work work -vopt -sv -covercells -coverExcludeDefault -nocoverfec -nocovershort -cover sbceft3 E:/UCSB/ECE156A/HW05/seg_decoder_B.v
+Model Technology ModelSim SE-64 vlog 10.1c Compiler 2012.07 Jul 27 2012
+-- Compiling module seg_decoder_B
+
+Top level modules:
+	seg_decoder_B
+
+} {} {}}

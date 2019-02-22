@@ -1,0 +1,88 @@
+Coverage Report Summary Data by file
+
+Total Coverage By File (code coverage only, filtered view): 95.3%
+
+File: E:/UCSB/ECE156A/HW05/VendMachine_B.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                        9         9         0     100.0
+    Branches                     2         1         1      50.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                144       144         0     100.0
+
+File: E:/UCSB/ECE156A/HW05/coin_sensor_B.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       32        32         0     100.0
+    Branches                    20        17         3      85.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                 38        36         2      94.7
+
+File: E:/UCSB/ECE156A/HW05/piggyBank_B.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       12        12         0     100.0
+    Branches                    12        11         1      91.6
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                 20        16         4      80.0
+
+File: E:/UCSB/ECE156A/HW05/purchaseManager_B.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       23        23         0     100.0
+    Branches                    15        14         1      93.3
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                 16        14         2      87.5
+
+File: E:/UCSB/ECE156A/HW05/seg_decoder_B.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       18        18         0     100.0
+    Branches                    16        16         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                 14        14         0     100.0
+
+File: E:/UCSB/ECE156A/HW05/sevenSegDispMngr_B.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       21        21         0     100.0
+    Branches                    15        13         2      86.6
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                108       100         8      92.5
+
+File: VendMachines_tb.v
+    Enabled Coverage        Active      Hits    Misses % Covered
+    ----------------        ------      ----    ------ ---------
+    Stmts                       27        27         0     100.0
+    Branches                     0         0         0     100.0
+    FEC Condition Terms          0         0         0     100.0
+    FEC Expression Terms         0         0         0     100.0
+    States                       0         0         0     100.0
+    Transitions                  0         0         0     100.0
+    Toggle Bins                 72        72         0     100.0
+
+
+TOTAL COVERGROUP COVERAGE: 100.0%  COVERGROUP TYPES: 1
+
+
+NEVER FAILED: 100.0%  ASSERTIONS: 1
+
+
